@@ -91,3 +91,40 @@
 - **Authors**: Yuxu Ge
 - **Link**: http://arxiv.org/abs/2603.07191v2
 - **Summary**: Autonomous agents powered by large language models introduce a class of execution-layer vulnerabilities -- prompt injection, retrieval poisoning, and uncontrolled tool invocation -- that existing guardrails fail to ad...
+### [2026-03-18] 3D Scene Understanding - Initial Scan
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.16868v1
+- **Summary**: MessyKitchens focuses on contact-rich object-level 3D scene reconstruction in cluttered environments.
+
+### [2026-03-18] SegviGen: Repurposing 3D Generative Model for Part Segmentation
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.16869v1
+- **Summary**: Uses 3D generative priors to improve part-level segmentation performance and robustness.
+
+### [2026-03-18] M^3 for Monocular Gaussian Splatting SLAM
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.16844v1
+- **Summary**: Combines dense matching with multi-view foundation models for better monocular SLAM reconstruction.
+
+### [2026-03-18] WildDepth Dataset
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.16816v1
+- **Summary**: Introduces a multimodal benchmark for wildlife 3D perception and depth estimation tasks.
+
+### [2026-03-18] World Reconstruction From Inconsistent Views
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.16736v1
+- **Summary**: Tackles robust 3D world reconstruction under inconsistent multi-view observations.
+### [2026-03-18] 3D Scene Understanding - Expanded Awesome List
+- **Published**: Mixed (CVPR/ICCV/ECCV/NeurIPS/SIGGRAPH + Preprint)
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers
+- **Summary**: Expanded the list with classic high-impact papers and reorganized into finer sections (Foundations, Point Cloud Understanding, Reconstruction/NeRF/Gaussian, Open-Vocabulary 3D, Latest Updates 2026).
+### [2026-03-18] 3D Scene Understanding - 10-Year Expansion and Full Categorization
+- **Published**: Mixed (venues + preprints)
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/blob/main/README.md
+- **Summary**: Expanded to 2016-present coverage, increased to 100+ entries, ensured all papers are assigned to explicit categories, and fixed formatting to put venue on a separate line under each title.
+
+### [2026-03-18] 3D Scene Understanding List Refocus (Understanding-only)
+- **Published**: Mixed (CVPR/ICCV/ECCV/NeurIPS/ICRA/CoRL + Preprint)
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/blob/main/README.md
+- **Summary**: Removed reconstruction/generation-focused sections (NeRF/Gaussian Splatting) and rebuilt the list around understanding tasks (semantic/instance, detection, open-vocabulary, embodied). Enforced paper-then-venue line break format.
