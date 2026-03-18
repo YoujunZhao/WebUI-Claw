@@ -10,7 +10,7 @@ Perform end-to-end literature operations for a user-provided research topic:
 1. Collect papers from multiple sources (arXiv + published literature platforms).
 2. Detect publication status (journal/conference) when available.
 3. Classify papers by topic and publication type.
-4. Generate ShowLab-style Awesome README.
+4. Generate Awesome README in the user's existing repository style.
 5. Create and maintain a GitHub repository.
 6. Configure and edit timed update jobs.
 
@@ -49,13 +49,13 @@ If one source fails, continue with others and report partial coverage.
 
 ## Publication labeling rule (mandatory)
 
-For any paper with a known publication venue (journal/conference/workshop), write a prefix **before arXiv link**:
+For any paper with a known publication venue (journal/conference/workshop), write a prefix **before arXiv badge**:
 
-- `[Published at: <Venue>]`
+- `[<Venue>]`
 
 If venue is unknown:
 
-- `[Publication: Preprint / Unknown]`
+- `[Preprint]`
 
 ## Classification rule
 
@@ -74,9 +74,15 @@ Classify entries into both dimensions:
 
 Use title+abstract keywords for topical assignment. Keep one primary topical bucket per paper.
 
-## README generation
+## README generation (must follow user repo style)
 
-Generate README using `scripts/build_awesome_readme.py`:
+Before generating README, fetch the user's current README style and mirror it:
+
+```bash
+gh api repos/<owner>/<repo>/readme -H 'Accept: application/vnd.github.raw+json' > /tmp/style_readme.md
+```
+
+Then generate README using `scripts/build_awesome_readme.py`:
 
 ```bash
 python3 skills/awesome-research-tracker/scripts/build_awesome_readme.py \
@@ -85,11 +91,11 @@ python3 skills/awesome-research-tracker/scripts/build_awesome_readme.py \
   --output /tmp/README.md
 ```
 
-Format each entry in ShowLab-like style:
+Format each entry in the user's awesome style (English-only), matching headings, bullet style, badges, and spacing:
 
 ```markdown
 + [Paper Title](primary_link)
-  [Published at: Venue Name] 
+  [Venue Name]
   [![arXiv](...)](arxiv_link)
   [![GitHub](...)](github_link_or_placeholder)
   [![Website](...)](website_link_or_placeholder) **(YYYY-MM-DD)**
