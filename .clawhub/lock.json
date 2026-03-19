@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "search-x": {
+      "version": "1.2.1",
+      "installedAt": 1773768211192
+    },
+    "xiaohongshu-mcp-skills": {
+      "version": "0.1.0",
+      "installedAt": 1773768370303
+    },
+    "skill-builder": {
+      "version": "1.0.5",
+      "installedAt": 1773771841007
+    },
+    "arxiv-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1773774962306
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773775357563
+    },
+    "awesome-paper-skill": {
+      "version": "1.0.0",
+      "installedAt": 1773824235241
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1773826780092
+    },
+    "openclaw-wechat-mp-guide": {
+      "version": "1.0.1",
+      "installedAt": 1773901145705
+    },
+    "wechat-article-creator": {
+      "version": "1.0.0",
+      "installedAt": 1773901373427
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1773903803982
+    }
+  }
+}
