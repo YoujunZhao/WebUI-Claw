@@ -11,6 +11,18 @@ OpenClaw + Stable Diffusion WebUI 的移动端生图集成项目。
 
 ---
 
+## Telegram 演示截图
+
+以下为 Telegram 场景下的真实对话演示（批量生图 + 精选回传）：
+
+<p align="center">
+  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram 演示 1" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram 演示 2" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram 演示 3" width="32%" />
+</p>
+
+---
+
 ## 为什么做这个项目
 
 - 手机优先的生图工作流
@@ -51,15 +63,6 @@ flowchart LR
 
 ---
 
-## Telegram 演示截图
-
-以下为 Telegram 场景下的真实对话演示（批量生图 + 精选回传）：
-
-<p align="center">
-  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram 演示 1" width="32%" />
-  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram 演示 2" width="32%" />
-  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram 演示 3" width="32%" />
-</p>
 
 ---
 

@@ -11,6 +11,18 @@ Users can send natural-language prompts from phone chat apps, and OpenClaw route
 
 ---
 
+## Telegram demo screenshots
+
+Real chat screenshots from Telegram flow (generate batch images and return best picks):
+
+<p align="center">
+  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram Demo 1" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram Demo 2" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram Demo 3" width="32%" />
+</p>
+
+---
+
 ## Why this project
 
 - Mobile-first image generation workflow
@@ -51,15 +63,6 @@ flowchart LR
 
 ---
 
-## Telegram demo screenshots
-
-Real chat screenshots from Telegram flow (generate batch images and return best picks):
-
-<p align="center">
-  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram Demo 1" width="32%" />
-  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram Demo 2" width="32%" />
-  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram Demo 3" width="32%" />
-</p>
 
 ---
 
