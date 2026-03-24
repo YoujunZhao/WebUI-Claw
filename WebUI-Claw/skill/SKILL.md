@@ -23,6 +23,14 @@ description: 通过 AUTOMATIC1111 WebUI API 进行手机端生图，支持“生
 
 ## Execute
 
+优先直接传用户原始文本，让脚本自动解析：
+
+```bash
+python3 scripts/parse_and_generate.py --text "{{user_text}}"
+```
+
+如果你的编排层已拆出参数，也可直接调用：
+
 ```bash
 python3 scripts/generate.py \
   --prompt "{{prompt}}" \

@@ -5,19 +5,19 @@
 ## A. 发布到 GitHub
 
 ```bash
-cd openclaw-webui-mobile-image
+cd WebUI-Claw
 git init
 git add .
-git commit -m "feat: OpenClaw + WebUI mobile image bot scaffold"
+git commit -m "feat: WebUI-Claw scaffold"
 git branch -M main
-git remote add origin git@github.com:<你的用户名>/openclaw-webui-mobile-image.git
+git remote add origin git@github.com:<你的用户名>/WebUI-Claw.git
 git push -u origin main
 ```
 
 如果你用 HTTPS：
 
 ```bash
-git remote add origin https://github.com/<你的用户名>/openclaw-webui-mobile-image.git
+git remote add origin https://github.com/<你的用户名>/WebUI-Claw.git
 ```
 
 ---
@@ -25,8 +25,8 @@ git remote add origin https://github.com/<你的用户名>/openclaw-webui-mobile
 ## B. 给用户的一键命令（放 README 顶部）
 
 ```bash
-git clone https://github.com/<你的用户名>/openclaw-webui-mobile-image.git && \
-cd openclaw-webui-mobile-image && \
+git clone https://github.com/<你的用户名>/WebUI-Claw.git && \
+cd WebUI-Claw && \
 cp .env.example .env && \
 bash scripts/deploy.sh
 ```
