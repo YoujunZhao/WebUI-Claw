@@ -1,0 +1,169 @@
+{
+  "corpus": {
+    "documents": 10,
+    "characters": 41072,
+    "sentences": 892,
+    "paragraphs": 30
+  },
+  "rhythm": {
+    "avg_sentence_tokens": 5.13,
+    "avg_paragraph_tokens": 152.63,
+    "question_density_per_100_sentences": 4.71
+  },
+  "voice": {
+    "second_person_mentions": 0,
+    "first_person_plural_mentions": 0
+  },
+  "formatting": {
+    "avg_sentences_per_paragraph": 30.4,
+    "paragraphs_over_3_sentences": 10,
+    "em_dash_count": 120
+  },
+  "lexicon": {
+    "top_terms": [
+      {
+        "term": "token",
+        "count": 60
+      },
+      {
+        "term": "https",
+        "count": 34
+      },
+      {
+        "term": "gpt",
+        "count": 32
+      },
+      {
+        "term": "mamba",
+        "count": 31
+      },
+      {
+        "term": "com",
+        "count": 28
+      },
+      {
+        "term": "ai",
+        "count": 24
+      },
+      {
+        "term": "智元",
+        "count": 24
+      },
+      {
+        "term": "10",
+        "count": 16
+      },
+      {
+        "term": "edgeclaw",
+        "count": 14
+      },
+      {
+        "term": "龙虾",
+        "count": 12
+      },
+      {
+        "term": "来源",
+        "count": 10
+      },
+      {
+        "term": "mp",
+        "count": 10
+      },
+      {
+        "term": "weixin",
+        "count": 10
+      },
+      {
+        "term": "qq",
+        "count": 10
+      },
+      {
+        "term": "新智元报道",
+        "count": 10
+      },
+      {
+        "term": "编辑",
+        "count": 10
+      },
+      {
+        "term": "新智元导读",
+        "count": 10
+      },
+      {
+        "term": "box",
+        "count": 10
+      },
+      {
+        "term": "秒追asi",
+        "count": 10
+      },
+      {
+        "term": "点赞",
+        "count": 10
+      },
+      {
+        "term": "转发",
+        "count": 10
+      },
+      {
+        "term": "在看一键三连",
+        "count": 10
+      },
+      {
+        "term": "点亮星标",
+        "count": 10
+      },
+      {
+        "term": "锁定新智元极速推送",
+        "count": 10
+      },
+      {
+        "term": "status",
+        "count": 9
+      },
+      {
+        "term": "20",
+        "count": 8
+      },
+      {
+        "term": "参考资料",
+        "count": 8
+      },
+      {
+        "term": "百万token",
+        "count": 8
+      },
+      {
+        "term": "arm",
+        "count": 7
+      },
+      {
+        "term": "今天",
+        "count": 7
+      }
+    ]
+  },
+  "banned_phrase_audit": {
+    "total_hits": 0,
+    "fatal_pattern_hits": 0,
+    "hits": []
+  },
+  "dna": {
+    "voice_gene": {
+      "direct_address_ratio": 0.0,
+      "collective_voice_ratio": 0.0
+    },
+    "rhythm_gene": {
+      "avg_sentence_tokens": 5.13,
+      "question_density_per_100_sentences": 4.71
+    },
+    "formatting_gene": {
+      "short_paragraph_compliance": 0.6667,
+      "avoid_em_dash_compliance": 0
+    },
+    "safety_gene": {
+      "banned_phrase_compliance": 1,
+      "fatal_pattern_compliance": 1
+    }
+  }
+}

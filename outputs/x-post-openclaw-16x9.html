@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html,body{margin:0;width:100%;height:100%;font-family:Inter,Segoe UI,Arial,sans-serif;background:#0a0f1f;}
+    .wrap{position:relative;width:1600px;height:900px;overflow:hidden;background:radial-gradient(1200px 700px at 80% 10%, #5b7cfa55, transparent 60%),radial-gradient(900px 600px at 10% 90%, #7f5af055, transparent 60%),linear-gradient(135deg,#0b1022,#111a38 45%,#0f1730 100%);} 
+    .grid{position:absolute;inset:0;background-image:linear-gradient(#ffffff11 1px,transparent 1px),linear-gradient(90deg,#ffffff11 1px,transparent 1px);background-size:48px 48px;opacity:.35}
+    .card{position:absolute;left:110px;top:120px;right:110px;bottom:120px;border:1px solid #ffffff2b;border-radius:28px;background:linear-gradient(180deg,#ffffff12,#ffffff08);backdrop-filter: blur(2px);box-shadow:0 20px 80px #00000066}
+    .title{position:absolute;left:170px;top:220px;color:#fff;font-size:88px;font-weight:800;letter-spacing:-1px;line-height:1.03}
+    .sub{position:absolute;left:175px;top:430px;color:#cdd8ff;font-size:36px;font-weight:500}
+    .chips{position:absolute;left:175px;top:520px;display:flex;gap:16px;flex-wrap:wrap}
+    .chip{padding:12px 20px;border:1px solid #9ab0ff55;border-radius:999px;color:#dbe5ff;background:#1f2b5a66;font-size:24px}
+    .repo{position:absolute;left:175px;bottom:170px;color:#9fb5ff;font-size:28px}
+    .dot{position:absolute;border-radius:50%;background:#8ea2ff}
+    .d1{width:14px;height:14px;right:240px;top:230px}.d2{width:10px;height:10px;right:180px;top:300px}.d3{width:18px;height:18px;right:320px;top:360px}
+    .line{position:absolute;height:2px;background:#8ea2ff66;transform-origin:left center}
+    .l1{width:180px;right:200px;top:260px;transform:rotate(25deg)}
+    .l2{width:140px;right:250px;top:330px;transform:rotate(-20deg)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="grid"></div>
+    <div class="card"></div>
+    <div class="title">Awesome<br/>OpenClaw Papers</div>
+    <div class="sub">Curated · Categorized · Continuously Updated</div>
+    <div class="chips">
+      <div class="chip">arXiv</div>
+      <div class="chip">Conferences</div>
+      <div class="chip">Journals</div>
+    </div>
+    <div class="repo">github.com/YoujunZhao/Awesome-Openclaw-Papers</div>
+    <div class="line l1"></div><div class="line l2"></div><div class="dot d1"></div><div class="dot d2"></div><div class="dot d3"></div>
+  </div>
+</body>
+</html>

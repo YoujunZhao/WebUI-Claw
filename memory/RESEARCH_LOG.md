@@ -128,3 +128,115 @@
 - **Published**: Mixed (CVPR/ICCV/ECCV/NeurIPS/ICRA/CoRL + Preprint)
 - **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/blob/main/README.md
 - **Summary**: Removed reconstruction/generation-focused sections (NeRF/Gaussian Splatting) and rebuilt the list around understanding tasks (semantic/instance, detection, open-vocabulary, embodied). Enforced paper-then-venue line break format.
+### [2026-03-18] 3D Scene Understanding - Understanding-only Refresh
+- **Authors**: Multiple
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/blob/main/README.md
+- **Summary**: Rebuilt the list to focus on understanding tasks only (segmentation/detection/scene graph/open-vocabulary/embodied perception), removed generation/reconstruction topics (including NeRF/Gaussian Splatting), enforced title-then-venue line break format, and refreshed GitHub/Website links using arXiv abstract/comment and web lookup fallback.
+### [2026-03-18] 3D Scene Understanding - Format Fix and Understanding-only Curated Pass
+- **Authors**: Multiple
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/14d7e19b2318edf098c4ad17638934fe21c2f8ba
+- **Summary**: Updated README to enforce title and venue on separate lines, kept understanding-only scope, and refreshed links from arXiv metadata/abs page with a first pass of manual curation.
+### [2026-03-18] Openclaw README Link Correction
+- **Title**: Proof-of-Guardrail in AI Agents and What (Not) to Trust from It
+- **Link**: https://arxiv.org/abs/2603.05786v1
+- **Summary**: Corrected incorrect website path in Awesome-Openclaw-Papers; no explicit project website found on arXiv page links beyond GitHub repo.
+### [2026-03-18] 3D Scene Understanding - Link Quality Cleanup
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/56858316ed7c088647163658e7118750a4ddf4e5
+- **Summary**: Removed redirect/invalid links (DuckDuckGo redirects, DOI-only URLs, generic domains) and kept only direct GitHub/project links; normalized badge naming to Website Project and fallback Not Found for uncertain links.
+### [2026-03-18] 3D Scene Understanding Repo Curation Update
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/ee0698605bab852fd6cb0b6cb8b152c074e7e333
+- **Summary**: Removed "Other" category and expanded coverage to 91 understanding-focused papers while filtering out reconstruction/generation-related work.
+### [2026-03-18] 3D Understanding Coverage Expansion
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/1c50d61cc25343f99326006ab6d2cee45aa08308
+- **Summary**: Expanded Awesome 3D Scene Understanding list to 115 papers, removed Other category, and preserved filters excluding reconstruction/generation topics.
+### [2026-03-18] 3D Understanding Repo Further Expansion
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/6c3183ef2138273e24b9d5c6bd2151a870ca4f8f
+- **Summary**: Expanded list to 171 papers with stricter filtering for understanding-focused topics and no Other category.
+### [2026-03-18] 3D Understanding Expansion + Venue Backfill
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/e1a60eb598c4c6f48380e7633fe9387a7f0d2cfc
+- **Summary**: Expanded repository to 244 papers and re-audited venue fields from arXiv journal_ref/comment metadata; kept no-Other taxonomy and understanding-only filtering.
+### [2026-03-18] 3D Repo Manual Reclassification Pass
+- **Link**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/138a84fa4bb6bda3aea85c3c3a0ff9f8db37fc61
+- **Summary**: Performed a manual curation pass to reclassify paper categories and further backfill venue metadata using category-targeted retrieval and arXiv metadata checks.
+### [2026-03-18] Benchmark-Driven Expansion from Similar Awesome Repos
+- **Sources**:
+  - https://github.com/bertjiazheng/awesome-scene-understanding
+  - https://github.com/worldbench/awesome-3d-in-the-wild
+- **Result**: Imported missing relevant arXiv entries into Awesome-3D-Scene-Understanding-Papers with topic filtering (understanding-focused, excluding reconstruction/generation) and kept formatting conventions.
+- **Commit**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/dffb57fe4ca8365318f61a5bccdf06eec42d3e1c
+### [2026-03-18] Quality-first pass after cross-repo import
+- **Commit**: https://github.com/YoujunZhao/Awesome-3D-Scene-Understanding-Papers/commit/f05034c6d83b6215dbd9de42e7ecf36a9f71205a
+- **What changed**: removed weak/irrelevant entries, reclassified misplaced items, and backfilled venues from arXiv metadata.
+- **Outcome**: 239 entries retained, 84 with venue labels, `Other` remains removed.
+
+## OpenClaw arXiv roundup (logged on 2026-03-19)
+
+### [2026-03-18] VeriGrey: Greybox Agent Validation
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.17639v1
+- **Summary**: Proposes a greybox validation framework for LLM agents and includes real-world OpenClaw case studies that surface attack scenarios missed by black-box testing.
+
+### [2026-03-18] Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.17419v1
+- **Summary**: Introduces a zero-trust architecture for high-privilege autonomous agents in healthcare, motivated by vulnerabilities observed in systems including OpenClaw.
+
+### [2026-03-17] MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.17187v1
+- **Summary**: Presents an OpenClaw-oriented agent that continuously evolves through meta-learning, with an accompanying open-source implementation.
+
+### [2026-03-17] OpenQlaw: An Agentic AI Assistant for Analysis of 2D Quantum Materials
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.17043v1
+- **Summary**: Describes a domain assistant built on a lightweight framework inspired by OpenClaw for multimodal quantum-material analysis workflows.
+### [2026-03-19] Diffusion + Gaussian Splatting survey (awesome repo build)
+- **Authors**: Multiple (survey curation run)
+- **Link**: https://github.com/YoujunZhao/Awesome-Diffusion-Gaussian-Splatting-Papers
+- **Summary**: Built and published a focused paper list on diffusion-integrated Gaussian Splatting. Included user-provided seed papers (Difix3D+, GSFixer, WonderFree, 3DGS-Enhancer, Generative Gaussian Splatting with Video Diffusion Priors), regenerated README, and pushed to private GitHub repo.
+### [2026-03-19] Diffusion + 3DGS high-precision refresh
+- **Link**: https://github.com/YoujunZhao/Awesome-Diffusion-Gaussian-Splatting-Papers
+- **Summary**: Rebuilt README with high-precision filtering for explicit diffusion+3D Gaussian Splatting methods, replaced wrong generic categories, restored venue lines where confidently extracted from arXiv metadata, and restored GitHub links where discoverable from arXiv pages.
+- **Commit**: 4fd141763cb39c138eabea215afb277504b59995
+### [2026-03-19] Metadata format fix for Diffusion+3DGS awesome list
+- **Link**: https://github.com/YoujunZhao/Awesome-Diffusion-Gaussian-Splatting-Papers
+- **Summary**: Fixed per-entry formatting to keep venue on a separate line after title, restored previously verified venue/github metadata, and normalized venue string formatting (e.g., CVPR 2025).
+- **Commit**: 40fae18b3bdb05081de6add7b459c19775b6e9a3
+
+## OpenClaw arXiv roundup (logged on 2026-03-20)
+
+### [2026-03-19] ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security Evaluation
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.18762v1
+- **Summary**: Introduces a MITM-based red-teaming framework for OpenClaw security evaluation under dynamic real-world network attacks, showing clear model-tier differences in anomaly attribution and safe fallback behavior.
+
+## OpenClaw arXiv roundup (logged on 2026-03-23)
+
+### [2026-03-20] Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.19974v1
+- **Summary**: Presents a stealthy prompt-manipulation attack path for OpenClaw via injected bootstrapped guidance, highlighting integrity risks in autonomous multi-step execution pipelines.
+### [2026-03-23] OpenClaw paper sync fix
+- **Link**: https://github.com/YoujunZhao/Awesome-Openclaw-Papers
+- **Paper**: Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance
+- **arXiv**: http://arxiv.org/abs/2603.19974v1
+- **Date**: 2026-03-20
+- **Commit**: ea32096
+- **Note**: Previously reported local-only commit/push failure state is now resolved; remote main updated successfully.
+### [2026-03-23] OpenClaw paper audit and backfill
+- **Repo**: https://github.com/YoujunZhao/Awesome-Openclaw-Papers
+- **Action**: Audited arXiv for OpenClaw-related omissions and backfilled missing entries across sections.
+- **Result**: Added 14 missing relevant papers.
+- **Commit**: f8cf483
+
+## OpenClaw arXiv roundup (logged on 2026-03-24)
+
+### [2026-03-23] StreamingClaw Technical Report
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.22120v1
+- **Summary**: Proposes an OpenClaw-compatible streaming framework for real-time multimodal reasoning, long-horizon shared memory, and perception-decision-action closed-loop execution in embodied settings.
+
+### [2026-03-22] When Convenience Becomes Risk: A Semantic View of Under-Specification in Host-Acting Agents
+- **Published**: Preprint
+- **Link**: http://arxiv.org/abs/2603.21231v1
+- **Summary**: Analyzes semantic under-specification in host-acting agents with an OpenClaw-centered case study, and derives defense principles for safer goal-to-plan execution.

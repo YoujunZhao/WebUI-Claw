@@ -55,9 +55,11 @@ flowchart LR
 
 以下为 Telegram 场景下的真实对话演示（批量生图 + 精选回传）：
 
-![Telegram 演示 1](./docs/demo/telegram/telegram-demo-1.jpg)
-![Telegram 演示 2](./docs/demo/telegram/telegram-demo-2.jpg)
-![Telegram 演示 3](./docs/demo/telegram/telegram-demo-3.jpg)
+<p align="center">
+  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram 演示 1" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram 演示 2" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram 演示 3" width="32%" />
+</p>
 
 ---
 

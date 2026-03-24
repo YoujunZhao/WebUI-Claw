@@ -1,0 +1,84 @@
+{
+  "top3": [
+    {
+      "idx": 5,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_05.png",
+      "bytes": 1191196,
+      "variant": "(((nighty white thick T-shirt with cute cartoon pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), rainy morning"
+    },
+    {
+      "idx": 7,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_07.png",
+      "bytes": 1179361,
+      "variant": "(((nighty white thick T-shirt with abstract wave pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), orange sunrise"
+    },
+    {
+      "idx": 9,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_09.png",
+      "bytes": 1146464,
+      "variant": "(((nighty white thick T-shirt with check pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), bright sunny morning"
+    }
+  ],
+  "all": [
+    {
+      "idx": 1,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_01.png",
+      "bytes": 1089283,
+      "variant": "(((nighty white thick T-shirt with blue stripe pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), clear morning"
+    },
+    {
+      "idx": 2,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_02.png",
+      "bytes": 1115003,
+      "variant": "(((nighty white thick T-shirt with small floral pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), cloudy morning"
+    },
+    {
+      "idx": 3,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_03.png",
+      "bytes": 1099297,
+      "variant": "(((nighty white thick T-shirt with minimalist geometric pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), golden morning light"
+    },
+    {
+      "idx": 4,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_04.png",
+      "bytes": 1040976,
+      "variant": "(((nighty white thick T-shirt with pastel dot pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), misty morning"
+    },
+    {
+      "idx": 5,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_05.png",
+      "bytes": 1191196,
+      "variant": "(((nighty white thick T-shirt with cute cartoon pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), rainy morning"
+    },
+    {
+      "idx": 6,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_06.png",
+      "bytes": 1142482,
+      "variant": "(((nighty white thick T-shirt with navy line pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), soft overcast morning"
+    },
+    {
+      "idx": 7,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_07.png",
+      "bytes": 1179361,
+      "variant": "(((nighty white thick T-shirt with abstract wave pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), orange sunrise"
+    },
+    {
+      "idx": 8,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_08.png",
+      "bytes": 1107891,
+      "variant": "(((nighty white thick T-shirt with tiny heart pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), after-rain morning"
+    },
+    {
+      "idx": 9,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_09.png",
+      "bytes": 1146464,
+      "variant": "(((nighty white thick T-shirt with check pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), bright sunny morning"
+    },
+    {
+      "idx": 10,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v7/xhs_v7_10.png",
+      "bytes": 1096311,
+      "variant": "(((nighty white thick T-shirt with subtle embroidered pattern))), (green yoga pants:1), indoor, cruise bedroom, against windows, over the sea, ((sun rise)), hazy morning"
+    }
+  ]
+}

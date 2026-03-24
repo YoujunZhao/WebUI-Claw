@@ -55,9 +55,11 @@ flowchart LR
 
 Real chat screenshots from Telegram flow (generate batch images and return best picks):
 
-![Telegram Demo 1](./docs/demo/telegram/telegram-demo-1.jpg)
-![Telegram Demo 2](./docs/demo/telegram/telegram-demo-2.jpg)
-![Telegram Demo 3](./docs/demo/telegram/telegram-demo-3.jpg)
+<p align="center">
+  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram Demo 1" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram Demo 2" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram Demo 3" width="32%" />
+</p>
 
 ---
 

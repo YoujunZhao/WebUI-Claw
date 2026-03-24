@@ -1,0 +1,214 @@
+{
+  "top6": [
+    {
+      "idx": 16,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_16.png",
+      "bytes": 1462965,
+      "cloth": "mint cardigan",
+      "scene": "botanical glasshouse path",
+      "weather": "humid summer"
+    },
+    {
+      "idx": 19,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_19.png",
+      "bytes": 1427399,
+      "cloth": "light purple sweater",
+      "scene": "lavender field",
+      "weather": "soft dusk"
+    },
+    {
+      "idx": 13,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_13.png",
+      "bytes": 1378933,
+      "cloth": "white varsity jacket",
+      "scene": "sports park walkway",
+      "weather": "clear twilight"
+    },
+    {
+      "idx": 11,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_11.png",
+      "bytes": 1357744,
+      "cloth": "light blue blazer",
+      "scene": "harbor pier",
+      "weather": "sun after rain"
+    },
+    {
+      "idx": 9,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_09.png",
+      "bytes": 1356422,
+      "cloth": "navy school cardigan",
+      "scene": "tram avenue",
+      "weather": "light rain"
+    },
+    {
+      "idx": 4,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_04.png",
+      "bytes": 1332473,
+      "cloth": "pink knit cardigan",
+      "scene": "cherry blossom riverside",
+      "weather": "spring morning"
+    }
+  ],
+  "all": [
+    {
+      "idx": 1,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_01.png",
+      "bytes": 1209260,
+      "cloth": "white cropped blazer",
+      "scene": "seaside white-rail promenade",
+      "weather": "golden sunset"
+    },
+    {
+      "idx": 2,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_02.png",
+      "bytes": 1154176,
+      "cloth": "light beige cardigan",
+      "scene": "coastal cafe terrace",
+      "weather": "clear afternoon"
+    },
+    {
+      "idx": 3,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_03.png",
+      "bytes": 1216561,
+      "cloth": "black leather jacket",
+      "scene": "neon downtown street",
+      "weather": "night drizzle"
+    },
+    {
+      "idx": 4,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_04.png",
+      "bytes": 1332473,
+      "cloth": "pink knit cardigan",
+      "scene": "cherry blossom riverside",
+      "weather": "spring morning"
+    },
+    {
+      "idx": 5,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_05.png",
+      "bytes": 1200407,
+      "cloth": "denim jacket",
+      "scene": "beach boardwalk",
+      "weather": "sunny noon"
+    },
+    {
+      "idx": 6,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_06.png",
+      "bytes": 1328886,
+      "cloth": "white hoodie",
+      "scene": "mountain lake dock",
+      "weather": "misty dawn"
+    },
+    {
+      "idx": 7,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_07.png",
+      "bytes": 1315777,
+      "cloth": "cream sweater",
+      "scene": "old town stone street",
+      "weather": "after-rain glow"
+    },
+    {
+      "idx": 8,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_08.png",
+      "bytes": 1194268,
+      "cloth": "red windbreaker",
+      "scene": "lighthouse coastal path",
+      "weather": "windy cloudy"
+    },
+    {
+      "idx": 9,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_09.png",
+      "bytes": 1356422,
+      "cloth": "navy school cardigan",
+      "scene": "tram avenue",
+      "weather": "light rain"
+    },
+    {
+      "idx": 10,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_10.png",
+      "bytes": 1019955,
+      "cloth": "olive bomber jacket",
+      "scene": "rooftop skyline terrace",
+      "weather": "blue hour"
+    },
+    {
+      "idx": 11,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_11.png",
+      "bytes": 1357744,
+      "cloth": "light blue blazer",
+      "scene": "harbor pier",
+      "weather": "sun after rain"
+    },
+    {
+      "idx": 12,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_12.png",
+      "bytes": 1200138,
+      "cloth": "brown suede jacket",
+      "scene": "desert roadside stop",
+      "weather": "dry sunny"
+    },
+    {
+      "idx": 13,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_13.png",
+      "bytes": 1378933,
+      "cloth": "white varsity jacket",
+      "scene": "sports park walkway",
+      "weather": "clear twilight"
+    },
+    {
+      "idx": 14,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_14.png",
+      "bytes": 1189810,
+      "cloth": "black blazer",
+      "scene": "modern museum plaza",
+      "weather": "overcast"
+    },
+    {
+      "idx": 15,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_15.png",
+      "bytes": 1190561,
+      "cloth": "yellow raincoat",
+      "scene": "seaside bus stop",
+      "weather": "heavy rain"
+    },
+    {
+      "idx": 16,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_16.png",
+      "bytes": 1462965,
+      "cloth": "mint cardigan",
+      "scene": "botanical glasshouse path",
+      "weather": "humid summer"
+    },
+    {
+      "idx": 17,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_17.png",
+      "bytes": 1244923,
+      "cloth": "striped knit top",
+      "scene": "coastal cliff road",
+      "weather": "foggy morning"
+    },
+    {
+      "idx": 18,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_18.png",
+      "bytes": 1286116,
+      "cloth": "khaki utility jacket",
+      "scene": "container harbor edge",
+      "weather": "sunset clouds"
+    },
+    {
+      "idx": 19,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_19.png",
+      "bytes": 1427399,
+      "cloth": "light purple sweater",
+      "scene": "lavender field",
+      "weather": "soft dusk"
+    },
+    {
+      "idx": 20,
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch_v6/xhs_v6_20.png",
+      "bytes": 1281139,
+      "cloth": "white knit cardigan",
+      "scene": "Santorini-style steps",
+      "weather": "bright sunny"
+    }
+  ]
+}

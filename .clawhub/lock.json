@@ -40,6 +40,34 @@
     "notion": {
       "version": "1.0.0",
       "installedAt": 1773903803982
+    },
+    "liang-tavily-search": {
+      "version": "1.0.1",
+      "installedAt": 1773912235131
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1773927205569
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773927243358
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1773927371621
+    },
+    "md2wechat": {
+      "version": "2.0.0",
+      "installedAt": 1774026199420
+    },
+    "wechat-mp-draft": {
+      "version": "1.0.0",
+      "installedAt": 1774026543480
+    },
+    "wechat-mp-publisher-1-0-0": {
+      "version": "1.0.1",
+      "installedAt": 1774026771505
     }
   }
 }

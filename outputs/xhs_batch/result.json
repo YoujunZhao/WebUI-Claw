@@ -1,0 +1,84 @@
+{
+  "top3": [
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_10.png",
+      "prompt": "masterpiece, best quality, 1girl, elegant hanfu, bamboo forest path with light mist, poetic atmosphere, soft diffused light",
+      "bytes": 1411931,
+      "score": 14.160468828985776
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_08.png",
+      "prompt": "masterpiece, best quality, 1girl, floral summer dress, lavender field, dreamy backlight, pastel tones, shallow depth of field",
+      "bytes": 1324900,
+      "score": 14.096847542856214
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_02.png",
+      "prompt": "masterpiece, best quality, 1girl, black leather jacket and boots, neon rainy street at night, cyberpunk reflections, fashion editorial",
+      "bytes": 1253649,
+      "score": 14.041569056688262
+    }
+  ],
+  "all": [
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_01.png",
+      "prompt": "masterpiece, best quality, 1girl, white linen sundress, seaside cliff, golden hour sunlight, wind-blown hair, cinematic photography",
+      "bytes": 1007534,
+      "score": 13.823016319131824
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_02.png",
+      "prompt": "masterpiece, best quality, 1girl, black leather jacket and boots, neon rainy street at night, cyberpunk reflections, fashion editorial",
+      "bytes": 1253649,
+      "score": 14.041569056688262
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_03.png",
+      "prompt": "masterpiece, best quality, 1girl, beige trench coat, autumn city park, fallen leaves, soft overcast light, street style",
+      "bytes": 1223068,
+      "score": 14.016873014104826
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_04.png",
+      "prompt": "masterpiece, best quality, 1girl, red qipao, old shanghai lane, warm lantern light, retro film color, elegant pose",
+      "bytes": 1138789,
+      "score": 13.945475975048888
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_05.png",
+      "prompt": "masterpiece, best quality, 1girl, sporty hoodie and tennis skirt, outdoor basketball court at sunset, dynamic posture",
+      "bytes": 1017508,
+      "score": 13.832867058675841
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_06.png",
+      "prompt": "masterpiece, best quality, 1girl, gray office blazer and pencil skirt, modern glass office lobby, clean minimalist background",
+      "bytes": 714761,
+      "score": 13.479703500062636
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_07.png",
+      "prompt": "masterpiece, best quality, 1girl, cozy knit sweater, cafe window seat, morning sun rays, coffee cup, lifestyle portrait",
+      "bytes": 1240190,
+      "score": 14.030775151649797
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_08.png",
+      "prompt": "masterpiece, best quality, 1girl, floral summer dress, lavender field, dreamy backlight, pastel tones, shallow depth of field",
+      "bytes": 1324900,
+      "score": 14.096847542856214
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_09.png",
+      "prompt": "masterpiece, best quality, 1girl, denim jacket and jeans, rooftop skyline at blue hour, urban fashion portrait",
+      "bytes": 1163853,
+      "score": 13.967246610638641
+    },
+    {
+      "file": "/home/a/.openclaw/workspace/outputs/xhs_batch/xhs_10.png",
+      "prompt": "masterpiece, best quality, 1girl, elegant hanfu, bamboo forest path with light mist, poetic atmosphere, soft diffused light",
+      "bytes": 1411931,
+      "score": 14.160468828985776
+    }
+  ]
+}
