@@ -1,25 +1,49 @@
 # WebUI-Claw
 
-把 **OpenClaw** 和 **Stable Diffusion WebUI (AUTOMATIC1111 API)** 打通，让用户在手机（Telegram）里直接发中文指令生图，并收到返回图片。
+[![English](https://img.shields.io/badge/Language-English-blue)](./README.md)
+[![中文](https://img.shields.io/badge/语言-中文-red)](./README.zh-CN.md)
 
-> 典型效果：`生成10张图：赛博朋克猫咪侦探，电影光影，768x1024，steps=30,cfg=7`
+OpenClaw + Stable Diffusion WebUI integration for **mobile image generation**.
 
----
+Users can send natural-language prompts from phone chat apps, and OpenClaw routes requests to WebUI API and returns generated images back in chat.
 
-## 核心能力
-
-- 手机端自然语言生图（中文）
-- 自动解析数量/分辨率/步数/CFG
-- 通过 WebUI API 批量生成（n_iter）
-- 结果回传到 OpenClaw 会话（可逐张发送）
+> Example: `Generate 10 images: cyberpunk cat detective, cinematic lighting, 768x1024, steps=30, cfg=7`
 
 ---
 
-## 架构
+## Why this project
+
+- Mobile-first image generation workflow
+- Natural-language parameter parsing (count, size, steps, cfg)
+- Works across channels supported by OpenClaw
+- Easy self-hosted deployment with Docker Compose
+
+---
+
+## Multi-channel support (not Telegram-only)
+
+This project is **channel-agnostic** because OpenClaw handles messaging.
+
+If OpenClaw supports a channel, this flow can work there too (with channel-specific media limits):
+
+- Telegram
+- WhatsApp
+- Discord
+- Slack
+- Signal
+- Line
+- iMessage
+- IRC / Google Chat (depending on OpenClaw setup)
+
+So yes — once integrated with OpenClaw, users can use other mobile apps, not only Telegram.
+
+---
+
+## Architecture
 
 ```mermaid
 flowchart LR
-  A[手机 Telegram] --> B[OpenClaw]
+  A[Mobile Chat App] --> B[OpenClaw]
   B --> C[WebUI-Claw skill]
   C --> D[AUTOMATIC1111 /sdapi/v1/txt2img]
   D --> C --> B --> A
@@ -27,11 +51,12 @@ flowchart LR
 
 ---
 
-## 目录结构
+## Repository structure
 
 ```bash
 WebUI-Claw/
 ├─ README.md
+├─ README.zh-CN.md
 ├─ .env.example
 ├─ docker-compose.yml
 ├─ docs/
@@ -48,7 +73,7 @@ WebUI-Claw/
 
 ---
 
-## 1) 一键部署 WebUI
+## Quick Start
 
 ```bash
 git clone https://github.com/YoujunZhao/WebUI-Claw.git
@@ -57,19 +82,19 @@ cp .env.example .env
 bash scripts/deploy.sh
 ```
 
-部署成功后 API 默认地址：
+Default API endpoint after startup:
 - `http://127.0.0.1:7860/sdapi/v1/txt2img`
 
 ---
 
-## 2) 接入 OpenClaw Skill
+## Connect skill to OpenClaw
 
 ```bash
 mkdir -p ~/.openclaw/workspace/skills/openclaw-webui-image
 cp -r skill/* ~/.openclaw/workspace/skills/openclaw-webui-image/
 ```
 
-OpenClaw 运行环境变量：
+Environment variables for OpenClaw runtime:
 
 ```bash
 export SD_WEBUI_URL=http://127.0.0.1:7860
@@ -78,59 +103,58 @@ export SD_WEBUI_TIMEOUT=180
 
 ---
 
-## 3) 手机指令示例
+## Mobile command examples
 
-- `生成1张图：赛博朋克夜景，霓虹雨，电影感`
-- `生成10张图：国风山水，晨雾，留白感，512x768`
-- `生成4张图：机械猫，白底电商图，steps=30,cfg=7`
+- `Generate 1 image: neon cyberpunk city, rainy street, cinematic`
+- `Generate 10 images: Chinese ink landscape, morning mist, 512x768`
+- `Generate 4 images: robotic cat, product white background, steps=30,cfg=7`
 
----
-
-## 4) 在 OpenClaw 里的调用约定（建议）
-
-给你的主助手增加一条规则：
-
-> 当用户出现“生图/画图/生成X张图”等意图时，调用 `openclaw-webui-image` skill，传入用户原始文本；skill 解析参数并调用 WebUI API；结果图片逐张回传会话。
+Chinese works as well:
+- `生成10张图：赛博朋克猫咪侦探，电影光影，768x1024，steps=30,cfg=7`
 
 ---
 
-## 5) 参数解析规则（内置）
+## Built-in parameter parsing
 
-- `生成10张` / `来10张` → `n_iter=10`
+`parse_and_generate.py` can parse:
+
+- `Generate 10 images` / `生成10张图` → `n_iter=10`
 - `512x768` / `1024*1024` → `width/height`
 - `steps=30` / `步数30` → `steps=30`
 - `cfg=7` / `cfg 7` → `cfg_scale=7`
-- 未指定时用 `.env` 默认值
+
+Defaults come from `.env` if not specified.
 
 ---
 
-## 6) 常见问题
+## FAQ
 
-### 手机上没收到图
-- 检查 OpenClaw 消息通道是否正常
-- 检查 skill 输出是否含 `images[]` base64
-- 检查平台附件大小限制
+### Images are not returned to phone
+- Check OpenClaw channel configuration
+- Check skill output contains `images[]` (base64)
+- Check media/file-size limits on your channel
 
-### WebUI API 连不上
+### WebUI API unreachable
 ```bash
 docker compose ps
 bash scripts/healthcheck.sh
 ```
 
-### 生成慢
-- 降分辨率、降 steps
-- 优先 GPU
+### Slow generation
+- Lower resolution or steps
+- Use GPU
+- Add queue/progress strategy in later versions
 
 ---
 
-## 7) 安全建议
+## Security notes
 
-- 不要直接公网暴露 7860
-- 至少加反向代理鉴权
-- 记录耗时和失败日志，避免盲排障
+- Do not expose port 7860 to public Internet directly
+- Add reverse proxy + auth for remote access
+- Avoid logging sensitive prompts permanently
 
 ---
 
-## 8) License
+## License
 
 MIT
