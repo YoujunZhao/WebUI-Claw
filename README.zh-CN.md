@@ -8,9 +8,8 @@ OpenClaw + Stable Diffusion WebUI 的移动端生图集成。
 ## Telegram 演示截图
 
 <p align="center">
-  <img src="./WebUI-Claw/docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram 演示 1" width="32%" />
-  <img src="./WebUI-Claw/docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram 演示 2" width="32%" />
-  <img src="./WebUI-Claw/docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram 演示 3" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-1.jpg" alt="Telegram 演示 1" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-2.jpg" alt="Telegram 演示 2" width="32%" />
+  <img src="./docs/demo/telegram/telegram-demo-3.jpg" alt="Telegram 演示 3" width="32%" />
 </p>
 
-> 完整文档见：`WebUI-Claw/README.zh-CN.md`
