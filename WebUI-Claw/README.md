@@ -51,6 +51,16 @@ flowchart LR
 
 ---
 
+## Telegram demo screenshots
+
+Real chat screenshots from Telegram flow (generate batch images and return best picks):
+
+![Telegram Demo 1](./docs/demo/telegram/telegram-demo-1.jpg)
+![Telegram Demo 2](./docs/demo/telegram/telegram-demo-2.jpg)
+![Telegram Demo 3](./docs/demo/telegram/telegram-demo-3.jpg)
+
+---
+
 ## Repository structure
 
 ```bash
